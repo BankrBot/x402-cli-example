@@ -1,0 +1,39 @@
+{
+  "name": "x402-cli-example",
+  "version": "0.1.0",
+  "description": "CLI example for Bankr SDK with x402 payments",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "@bankr/sdk": "^0.1.0",
+    "viem": "^2.21.25",
+    "ora": "^8.1.0",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "bun-types": "^1.1.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "bankr",
+    "x402",
+    "defi",
+    "cli",
+    "ai-agent",
+    "usdc",
+    "base",
+    "crypto"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BankrBot/x402-cli-example.git"
+  },
+  "license": "MIT"
+}
